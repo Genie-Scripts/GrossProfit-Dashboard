@@ -1,0 +1,8 @@
+cd ~/streamlit_project
+source streamlit_env/bin/activate
+cd /Users/Genie/streamlit_project/GitHub/GrossProfit-Dashboard
+streamlit run app.py
+
+
+
+pip install -r requirements.txt

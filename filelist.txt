@@ -1,0 +1,19 @@
+.
+├── app.py
+├── docs
+├── filelist.txt
+├── fonts
+│   ├── NotoSansJP-Black.ttf
+│   ├── NotoSansJP-Bold.ttf
+│   ├── NotoSansJP-ExtraBold.ttf
+│   ├── NotoSansJP-ExtraLight.ttf
+│   ├── NotoSansJP-Light.ttf
+│   ├── NotoSansJP-Medium.ttf
+│   ├── NotoSansJP-Regular.ttf
+│   ├── NotoSansJP-SemiBold.ttf
+│   ├── NotoSansJP-Thin.ttf
+│   └── NotoSansJP-VariableFont_wght.ttf
+├── requirements.txt
+└── コマンド.txt
+
+3 directories, 14 files

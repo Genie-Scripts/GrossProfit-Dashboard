@@ -98,7 +98,6 @@ def generate_html(summary_df, chart_df, google_analytics_id: Optional[str] = Non
     achieved_depts = len(summary_df[summary_df['直近月達成率'] >= 100])
     avg_achievement = summary_df['直近月達成率'].mean() if not summary_df['直近月達成率'].empty else 0
     
-    # ▼▼▼【修正箇所】Google Analyticsのトラッキングコードを生成 ▼▼▼
     ga_script_html = ""
     if google_analytics_id:
         # f-string内でJSの{}をエスケープするために{{}}を使用

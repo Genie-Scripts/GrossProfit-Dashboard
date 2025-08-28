@@ -49,6 +49,7 @@ st.sidebar.markdown("---")
 st.sidebar.header("⚙️ レポート設定")
 google_analytics_id = st.sidebar.text_input(
     "Google Analytics ID (任意)",
+    value="G-K6XTL1DM13",
     help="HTMLにトラッキングコードを埋め込む場合に入力します。例: G-K6XTL1DM13"
 )
 
